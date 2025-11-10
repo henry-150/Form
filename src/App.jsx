@@ -152,9 +152,10 @@ export default function UserForm() {
           </button>
         </form>
 
-        <div className="w-full max-w-6xl bg-white shadow-lg rounded-2xl overflow-hidden">
-          <h2 className="text-xl font-semibold text-gray-800 px-6 py-4 border-b">User List</h2>
+      </div>
 
+        <div className="w-screen max-w-6xl bg-white shadow-lg rounded-2xl overflow-hidden">
+          <h2 className="text-xl font-semibold text-gray-800 px-6 py-4 ">User List</h2>
           <div className="overflow-x-auto">
             <table className="min-w-full text-left text-sm text-gray-700">
               <thead className="bg-gray-100 text-gray-600 uppercase text-xs">
@@ -194,9 +195,6 @@ export default function UserForm() {
             </table>
           </div>
         </div>
-
-
-      </div>
 
     </>
 
